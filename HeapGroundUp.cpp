@@ -8,6 +8,7 @@ public:
     int *datas;
     int capacity;
     int heap_size;
+    int valo;
 
     Minheap(int i){
         capacity = i;
